@@ -1,0 +1,27 @@
+.flex {
+  background-color: aliceblue;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 100px;
+  width: 260px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar > img {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+}
+
+.flex-column > h2 {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+}
