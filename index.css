@@ -13,15 +13,29 @@
   display: flex;
   flex-direction: column;
 }
-
+.avatar
+{
+  position: relative;
+}
 .avatar > img {
   width: 90px;
   height: 90px;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .flex-column > h2 {
   margin: 0;
   margin-top: 10px;
   padding: 0;
+}
+.online
+{
+  width: 10px;
+  height: 10px;
+  background-color: greenyellow;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 15%;
+  right: 15%;
+  border: 1px solid #ccc;
 }
